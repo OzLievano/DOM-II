@@ -42,3 +42,23 @@ window.addEventListener("resize",() => {
 window.addEventListener("keypress",()=>{
     destinationEvent[1].style.backgroundColor="red";})
 
+// 8
+
+window.addEventListener("keydown",()=>{
+    destinationEvent[2].style.backgroundColor="yellow";
+})
+
+//9
+
+const contentDest = document.querySelector('.content-destination p');
+
+contentDest.addEventListener("copy",(event)=>{
+    event.target.style.color = "pink";
+})
+//10
+
+const destImg = document.querySelector('.content-destination img');
+
+destImg.addEventListener('mousedown',()=>{
+    destImg.src ="";
+})
