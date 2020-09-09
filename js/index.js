@@ -38,3 +38,7 @@ window.addEventListener("resize",() => {
    smallScreen.src = "";
 })
 
+//7
+window.addEventListener("keypress",()=>{
+    destinationEvent[1].style.backgroundColor="red";})
+
